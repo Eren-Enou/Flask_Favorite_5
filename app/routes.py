@@ -7,5 +7,5 @@ def index():
 
 @app.route('/favorites')
 def favorites():
-    test = ['1', '2', '3', '4', '5']
-    return render_template('favorites.html', test = test)
+    manga = ['Shingeki no Kyojin', 'Chainsaw man', 'Goodbye Eri', 'Berserk', 'Horimiya']
+    return render_template('favorites.html', manga = manga)
